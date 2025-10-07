@@ -1,0 +1,91 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #b33c00;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 10%;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #b33c00;
+            border-bottom: 2px solid #b33c00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        h3 {
+            color: #d45a00;
+            margin-top: 25px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+        }
+ 
