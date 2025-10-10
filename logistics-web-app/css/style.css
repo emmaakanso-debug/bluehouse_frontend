@@ -1,0 +1,22 @@
+body {
+  background: url('https://images.unsplash.com/photo-1581091870627-3b4c7a355b1e') no-repeat center center/cover;
+  min-height: 100vh;
+}
+
+.hero {
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
