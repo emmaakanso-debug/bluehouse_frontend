@@ -1,0 +1,47 @@
+/* style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-teal {
+  background-color: #008080 !important;
+}
+
+.hero {
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 60px 0;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: auto;
+}
+
+form input, form button {
+  border-radius: 10px;
+}
+
+.btn-light {
+  color: #008080;
+  font-weight: 600;
+}
