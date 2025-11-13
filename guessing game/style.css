@@ -1,0 +1,80 @@
+/* General styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Container styling */
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 10px;
+  color: #4a148c;
+}
+
+/* Inputs and buttons */
+input, select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #4a148c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}
+
+/* Message styling */
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#attemptsLeft {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#restartBtn {
+  display: none;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+}
