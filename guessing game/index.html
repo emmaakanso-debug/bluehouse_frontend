@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Guessing Game 🎯</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Number Guessing Game</h1>
+    <p>Select a difficulty level and try to guess the secret number!</p>
+
+    <div class="difficulty">
+      <label for="difficulty">Choose difficulty:</label>
+      <select id="difficulty" onchange="setDifficulty()">
+        <option value="easy">Easy (1–10)</option>
+        <option value="medium">Medium (1–50)</option>
+        <option value="hard">Hard (1–100)</option>
+      </select>
+    </div>
+
+    <div class="game">
+      <p id="rangeText">Guess a number between 1 and 10:</p>
+      <input type="number" id="userGuess" placeholder="Enter your guess" />
+      <button id="guessBtn" onclick="playGame()">Guess</button>
+    </div>
+
+    <p id="message"></p>
+    <p id="attemptsLeft">Attempts left: 5</p>
+
+    <button id="restartBtn" onclick="restartGame()">🔄 Play Again</button>
+  </div>
+
+  <footer>
+    <p>Created by <strong>[Emmanuel]</strong> 💻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
